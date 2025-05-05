@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo de 21 (Blackjack)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Jogo de 21</h1>
+    <p id="message">Clique em "Nova Carta" para começar!</p>
+
+    <div class="hand">
+      <h2>Sua mão:</h2>
+      <div id="player-cards" class="cards"></div>
+      <p>Total: <span id="player-total">0</span></p>
+    </div>
+
+    <div class="buttons">
+      <button onclick="startGame()">Novo Jogo</button>
+      <button onclick="drawCard()">Nova Carta</button>
+      <button onclick="stopGame()">Parar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
