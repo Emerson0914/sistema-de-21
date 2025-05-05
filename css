@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f0f0f;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.game-container {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 0 15px #fff3;
+}
+
+.cards {
+  margin: 10px 0;
+}
+
+.card {
+  display: inline-block;
+  background: white;
+  color: black;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+  width: 40px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
